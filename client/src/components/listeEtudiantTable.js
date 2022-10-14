@@ -15,7 +15,7 @@ const EtudiantTable = (props) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getListEtudiant());
-    console.log('staaaaaaaaaaaaaaaaaaaaaaaaaaate',listEtudiant)
+    console.log('staaaaaaaaaaaaaaaaaaaaaaaaaaate:::::::::',listEtudiant)
   }, [])
   const cancel = (e) => {
     console.log(e);

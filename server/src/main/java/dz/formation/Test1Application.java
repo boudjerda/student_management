@@ -10,4 +10,12 @@ public class Test1Application {
 		SpringApplication.run(Test1Application.class, args);
 	}
 
+	/**
+	 * Clique sur File en haut
+	 * Choisit Project structure
+	 * va sur modules
+	 * sélectionne le dossier src
+	 * ensuite "Sources"
+	 * clique sur Apply
+	 */
 }
